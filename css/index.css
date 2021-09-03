@@ -40,10 +40,10 @@ body{
 .navbar-links li a:active{
     color: #ff9f1c;
 } */
-.slider{
+.indexSlider{
     margin-top: 2rem;
 }
-.img-slider{
+.indexImgSlider{
     height: 50vh;
     width: 100vw;
 }
