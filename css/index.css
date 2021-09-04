@@ -2,18 +2,24 @@
 body{
     background-color: #121212;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* NAVBAR */
 
 .navigation-bg{
-    background-color: transparent;
+    background-color: #121212;
 }
 .navigation{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 30px;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+    background-color: #121212;
 }
 .hamburger{
     display: flex;
@@ -153,3 +159,25 @@ body{
     width: 100%;
     
 }
+
+/* customisation card */
+.CustomisationSwiper{
+    margin-top: 10rem;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
