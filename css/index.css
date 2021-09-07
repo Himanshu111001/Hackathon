@@ -181,3 +181,18 @@ body{
     display: block;
     width: 100%;
   }
+
+
+  .stroke-text {
+    /*   
+    background: -webkit-linear-gradient(45deg,rgba(35, 175, 225, 1)
+    , rgba(211, 118, 231, 1)); */
+    background: -webkit-linear-gradient(92.12deg, #6c72cb 0%, #cb69c1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 22px;
+  }
+  
