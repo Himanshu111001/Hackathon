@@ -189,7 +189,7 @@ body{
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 210px;
     height: 300px;
   }
 
@@ -256,4 +256,21 @@ footer li a{
     font-weight: 700;
     text-transform: uppercase;
     line-height: 22px;
+  }
+
+
+  .slider-card{
+      background-color: #fff;
+      display: flex;
+      padding: 1rem 1rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .slider-image{
+      height: 200px;
+      width: 200px;
+  }
+  .slider-content{
+      padding: auto;
   }
