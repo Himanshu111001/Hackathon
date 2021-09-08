@@ -228,4 +228,18 @@ body{
  .raw-img:hover{
      cursor: pointer;
      transform: scale(1.1);
- }
+}
+
+/* FOOTER */
+
+.ft-container{
+    background-color: aqua;
+}
+
+footer li{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+    color: #fff;
+}
