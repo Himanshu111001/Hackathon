@@ -189,7 +189,7 @@ body{
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 215px;
     height: 300px;
   }
 
@@ -206,7 +206,8 @@ body{
  }
  .raw-col.col{
      border-radius: 5px;
-     background-color: #171717;
+     /* background-color: #171717; */
+     background-color: #17181f;
      margin: 0px 20px;
  }
  .raw-grid{
@@ -216,7 +217,7 @@ body{
  }
  .raw-tag{
      color: #fff;
-     margin-top: 50px;
+     margin-top: 20px;
  }
  .raw-img{
      margin-top: 30px;
@@ -233,17 +234,42 @@ body{
 /* FOOTER */
 
 .ft-container{
-    background-color: aqua;
+    display: flex;
+    background-color: #17181f;
 }
-
 footer li{
     list-style: none;
 }
 footer li a{
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.24);
+}
+footer li a:hover{
     color: #fff;
 }
 
+footer h3{
+    color: #fff;
+}
+.social-links{
+    margin-top: 30px;
+}
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
 /* stroke text */
 .stroke-text {
     /*   
@@ -257,3 +283,73 @@ footer li a{
     text-transform: uppercase;
     line-height: 22px;
   }
+
+
+  .slider-card{
+      background-color: #fff;
+      display: flex;
+      padding: 1rem 1rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .slider-image{
+      height: 200px;
+      width: 200px;
+  }
+  .slider-content{
+      padding: auto;
+  }
+
+  /* BUY NOW BUTON */
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero-btn{
+    position: relative;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    transition: 500ms ease;
+}
+.hero-btn:hover{
+    color: #111;
+    background-color: #21ebff;
+    box-shadow: 0 0 50px #21ebff;
+    transition-delay: 500ms;
+}
+.hero-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #21ebff;
+    border-left: 2px solid #21ebff;
+    transition: 500ms ease;
+}
+.hero-btn:hover:before{
+    width: 100%;
+    height: 100%;
+}
+.hero-btn::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #21ebff;
+    border-right: 2px solid #21ebff;
+    transition: 500ms ease;
+}
+.hero-btn:hover::after{
+    width: 100%;
+    height: 100%;
+}
